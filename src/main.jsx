@@ -9,7 +9,7 @@ import Contact from "./routes/Contact";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/contacts-app",
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
